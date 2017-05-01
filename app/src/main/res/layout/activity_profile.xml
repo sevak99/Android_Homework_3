@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.homework_3.ProfileActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/profile_userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="50dp"
+        android:text="User Name: "
+        />
+
+    <TextView
+        android:id="@+id/profile_firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="50dp"
+        android:layout_below="@+id/profile_userName"
+        android:text="First  Name: "
+        />
+    <TextView
+        android:id="@+id/profile_lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="50dp"
+        android:layout_below="@+id/profile_firstName"
+        android:text="Last Nmae: "
+        />
+    <TextView
+        android:id="@+id/profile_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="50dp"
+        android:layout_below="@+id/profile_lastName"
+        android:text="Gender: "
+        />
+    <TextView
+        android:id="@+id/profile_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="50dp"
+        android:layout_below="@+id/profile_gender"
+        android:text="Age: "
+        />
+    <TextView
+        android:id="@+id/profile_bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="50dp"
+        android:layout_below="@+id/profile_age"
+        android:text="Bio: "
+        />
+
+    <Button
+        android:id="@+id/btn_edit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/profile_bio" />
+
+</RelativeLayout>
